@@ -1,0 +1,21 @@
+{
+  "raw_ucr_ge_15pct": true,
+  "remove_ucr_relative_drop_ge_30pct": true,
+  "egpr_weighted_ucr_relative_drop_ge_30pct": true,
+  "raw_harm_ge_25pct": false,
+  "egpr_harm_below_raw": false,
+  "egpr_ndcg_ge_or_close_to_raw": true,
+  "egpr_ghr_above_raw": true,
+  "critical_signal_present": false,
+  "pass_count": 5,
+  "decision": "no_go_or_revise",
+  "raw_ucr": 0.2905766526019691,
+  "remove_ucr": 0.0,
+  "egpr_weighted_ucr": 0.024601889371450254,
+  "raw_harm": 0.032,
+  "egpr_harm": 0.032,
+  "raw_ndcg": 0.022495494582915297,
+  "egpr_ndcg": 0.023154241409607677,
+  "raw_ghr": 0.5464654821217537,
+  "egpr_ghr": 0.5965904602963559
+}

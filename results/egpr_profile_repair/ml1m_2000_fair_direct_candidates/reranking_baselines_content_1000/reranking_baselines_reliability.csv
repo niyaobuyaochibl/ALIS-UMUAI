@@ -1,0 +1,3 @@
+Method,HarmRate,PositiveGainRate,MeanDeltaNDCG@20,PositiveGainSum,NegativeGainSum,GainHarmRatio
+LightGCN,0.0,0.0,0.0,0.0,0.0,
+Content Rerank,0.037,0.044,0.0005429715643051398,9.36583710511863,-8.82286554081349,1.061541407583899

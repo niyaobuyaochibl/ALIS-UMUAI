@@ -1,0 +1,5 @@
+Method,HarmRate,GainHarmRatio
+LightGCN,0.0,inf
+Content Rerank,0.005,1.210620891897197
+BM25 Rerank,0.007,0.8854920537886652
+Dense Rerank,0.008,1.1131971106827114

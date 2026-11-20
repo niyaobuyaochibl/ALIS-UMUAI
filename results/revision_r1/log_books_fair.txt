@@ -1,0 +1,3 @@
+analyzing Amazon Books candidate_size=50
+analyzing Amazon Books candidate_size=100
+Done. Report: results\revision_r1\books_fair\amazon_books_1000_fair_confirmatory_report.md

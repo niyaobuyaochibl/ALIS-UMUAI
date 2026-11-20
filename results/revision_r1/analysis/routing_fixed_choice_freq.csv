@@ -1,0 +1,13 @@
+domain,selected,freq
+books,Content,0.68
+books,Remove,0.16
+books,Dense,0.1
+books,EGPR,0.02
+books,Direct,0.02
+books,Raw,0.02
+ml1m,Dense,0.74
+ml1m,Direct,0.26
+yelp,Raw,0.62
+yelp,Content,0.3
+yelp,Base,0.06
+yelp,Direct,0.02

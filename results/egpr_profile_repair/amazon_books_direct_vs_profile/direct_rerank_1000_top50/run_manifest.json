@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "dataset": "amazon_books_subset",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "candidate_run_dir": "/root/temporal_popularity_pilot/results/egpr_profile_repair/amazon_books_seed42_lightgcn_1000",
+  "users": 1000,
+  "direct_candidates": 50,
+  "topk": 20,
+  "history_limit": 20,
+  "estimated_cost_usd": 0.16506490000000001,
+  "parse_failures": 0,
+  "updated_at_utc": "2026-05-21T02:17:48.892609+00:00"
+}

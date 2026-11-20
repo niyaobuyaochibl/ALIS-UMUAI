@@ -1,0 +1,32 @@
+{
+ "id": "4850cd22-e96e-4195-93e3-8c74d1b490e5",
+ "object": "chat.completion",
+ "created": 1781466087,
+ "model": "deepseek-v4-flash",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"ranking\":[\"C01\",\"C02\",\"C24\",\"C19\",\"C28\",\"C09\",\"C05\",\"C23\",\"C49\",\"C03\",\"C20\",\"C36\",\"C37\",\"C38\",\"C42\",\"C14\",\"C32\",\"C46\",\"C11\",\"C04\"]}"
+   },
+   "logprobs": null,
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 1647,
+  "completion_tokens": 851,
+  "total_tokens": 2498,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 785
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 1647
+ },
+ "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402",
+ "_latency_seconds": 7.745985746383667
+}

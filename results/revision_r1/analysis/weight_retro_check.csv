@@ -1,0 +1,13 @@
+domain,preference,selected
+ml1m,accuracy_first,Dense
+ml1m,balanced,Dense
+ml1m,safety_first,Dense
+ml1m,cost_first,Dense
+yelp,accuracy_first,Raw
+yelp,balanced,Content
+yelp,safety_first,Content
+yelp,cost_first,Content
+books,accuracy_first,Content
+books,balanced,Content
+books,safety_first,Content
+books,cost_first,Content

@@ -1,0 +1,18 @@
+{
+  "status": "completed",
+  "dataset": "amazon_books_subset",
+  "seed": 42,
+  "users": 78804,
+  "items": 79220,
+  "train": 912632,
+  "val_eval": 1000,
+  "test_eval": 1000,
+  "profile_users": 1872,
+  "top_candidates": 100,
+  "topk": 20,
+  "embedding_dim": 64,
+  "layers": 3,
+  "epochs": 30,
+  "samples_per_epoch": 200000,
+  "updated_at_utc": "2026-06-09T16:20:15.662369+00:00"
+}

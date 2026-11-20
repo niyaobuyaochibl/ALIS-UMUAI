@@ -1,0 +1,12 @@
+Base: ranked list from <repo>\results\egpr_profile_repair\amazon_books_seed42_lightgcn_1000\candidates_lightgcn_test.npz (users matched 1000/1000), NDCG@20=0.0043
+Direct: ranked list from <repo>\results\revision_r1\books_fair\per_user_ranked_top100.npz (users matched 1000/1000), NDCG@20=0.0039
+Raw: ranked list from <repo>\results\revision_r1\books_fair\per_user_ranked_top100.npz (users matched 1000/1000), NDCG@20=0.0049
+Remove: ranked list from <repo>\results\revision_r1\books_fair\per_user_ranked_top100.npz (users matched 1000/1000), NDCG@20=0.0050
+EGPR: ranked list from <repo>\results\revision_r1\books_fair\per_user_ranked_top100.npz (users matched 1000/1000), NDCG@20=0.0048
+Content: ranked list from <repo>\results\egpr_profile_repair\amazon_books_direct_vs_profile\reranking_baselines_1000_top100\ranked_content_top20.npy (users matched 1000/1000), NDCG@20=0.0053
+BM25: ranked list from <repo>\results\revision_r1\books_strong\per_user_ranked_bm25.npz (users matched 1000/1000), NDCG@20=0.0040
+Dense: ranked list from <repo>\results\revision_r1\books_strong\per_user_ranked_dense.npz (users matched 1000/1000), NDCG@20=0.0046
+check Base vs per_user_lightgcn.csv: 0 mismatching users of 1000
+check Raw vs per_user_raw.csv: 0 mismatching users of 1000
+check Remove vs per_user_remove.csv: 0 mismatching users of 1000
+check EGPR vs per_user_weighted.csv: 0 mismatching users of 1000

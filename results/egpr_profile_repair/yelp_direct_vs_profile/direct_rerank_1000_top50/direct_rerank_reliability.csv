@@ -1,0 +1,3 @@
+Method,HarmRate,PositiveGainRate,MeanDeltaNDCG@20,PositiveGainSum,NegativeGainSum,GainHarmRatio
+LightGCN,0.0,0.0,0.0,0.0,0.0,
+DeepSeek Direct Rerank,0.016,0.022,-0.001140405724140613,4.774037459781785,-5.914443183922398,0.8071829099245303

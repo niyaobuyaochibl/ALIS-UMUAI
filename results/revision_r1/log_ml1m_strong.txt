@@ -1,0 +1,24 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|鈻堚枅鈻堚枅鈻堚枅鈻堚枅鈻堚枅| 103/103 [00:00<00:00, 4113.51it/s]
+
+Batches:   0%|          | 0/13 [00:00<?, ?it/s]
+Batches:   8%|鈻?        | 1/13 [00:00<00:10,  1.17it/s]
+Batches:  15%|鈻堚枌        | 2/13 [00:01<00:07,  1.42it/s]
+Batches:  23%|鈻堚枅鈻?      | 3/13 [00:01<00:06,  1.64it/s]
+Batches:  31%|鈻堚枅鈻?      | 4/13 [00:02<00:04,  1.82it/s]
+Batches:  38%|鈻堚枅鈻堚枈      | 5/13 [00:02<00:04,  1.89it/s]
+Batches:  46%|鈻堚枅鈻堚枅鈻?    | 6/13 [00:03<00:03,  2.06it/s]
+Batches:  54%|鈻堚枅鈻堚枅鈻堚枍    | 7/13 [00:03<00:02,  2.25it/s]
+Batches:  62%|鈻堚枅鈻堚枅鈻堚枅鈻?  | 8/13 [00:04<00:02,  2.39it/s]
+Batches:  69%|鈻堚枅鈻堚枅鈻堚枅鈻?  | 9/13 [00:04<00:01,  2.58it/s]
+Batches:  77%|鈻堚枅鈻堚枅鈻堚枅鈻堚枊  | 10/13 [00:04<00:01,  2.68it/s]
+Batches:  85%|鈻堚枅鈻堚枅鈻堚枅鈻堚枅鈻?| 11/13 [00:04<00:00,  2.92it/s]
+Batches:  92%|鈻堚枅鈻堚枅鈻堚枅鈻堚枅鈻堚枏| 12/13 [00:05<00:00,  2.94it/s]
+Batches: 100%|鈻堚枅鈻堚枅鈻堚枅鈻堚枅鈻堚枅| 13/13 [00:05<00:00,  3.07it/s]
+Batches: 100%|鈻堚枅鈻堚枅鈻堚枅鈻堚枅鈻堚枅| 13/13 [00:05<00:00,  2.33it/s]
+Content Rerank: NDCG@20=0.0252 Recall@20=0.0655 (base 0.0249) lambda_c=0.2 HarmRate=0.025 GHR=1.136 Top20Overlap=0.934 p_vs_base=0.6509
+BM25 Rerank: NDCG@20=0.0284 Recall@20=0.0700 (base 0.0249) lambda_c=0.7 HarmRate=0.041 GHR=1.310 Top20Overlap=0.636 p_vs_base=0.1351
+Dense Rerank: NDCG@20=0.0320 Recall@20=0.0760 (base 0.0249) lambda_c=0.7 HarmRate=0.034 GHR=1.798 Top20Overlap=0.643 p_vs_base=0.0019
+wrote 3 CSVs to results\revision_r1\ml1m_strong

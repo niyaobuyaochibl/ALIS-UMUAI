@@ -1,0 +1,10 @@
+Base: ranked list from <repo>\results\egpr_profile_repair\yelp_seed42_deepseek_1000_expressive5\candidates_lightgcn_test.npz (users matched 1000/1000), NDCG@20=0.0155
+Direct: ranked list from <repo>\results\revision_r1\yelp_fair\per_user_ranked_top100.npz (users matched 1000/1000), NDCG@20=0.0152
+Raw: ranked list from <repo>\results\revision_r1\yelp_fair\per_user_ranked_top100.npz (users matched 1000/1000), NDCG@20=0.0166
+Remove: ranked list from <repo>\results\revision_r1\yelp_fair\per_user_ranked_top100.npz (users matched 1000/1000), NDCG@20=0.0160
+EGPR: ranked list from <repo>\results\revision_r1\yelp_fair\per_user_ranked_top100.npz (users matched 1000/1000), NDCG@20=0.0152
+Content: ranked list from <repo>\results\egpr_profile_repair\yelp_direct_vs_profile\reranking_baselines\ranked_content_top20.npy (users matched 1000/1000), NDCG@20=0.0164
+check Base vs per_user_lightgcn.csv: 0 mismatching users of 1000
+check Raw vs per_user_lightgcn_raw_profile.csv: 0 mismatching users of 1000
+check Remove vs per_user_lightgcn_remove_repair.csv: 0 mismatching users of 1000
+check EGPR vs per_user_lightgcn_evidence_weighted_repair.csv: 0 mismatching users of 1000

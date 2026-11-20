@@ -1,0 +1,18 @@
+building Yelp metadata for fair confirmatory analysis: 17,917 items
+metadata scan lines=500,000 businesses=14,768 found=1,821/17,917
+metadata scan lines=1,000,000 businesses=27,095 found=3,548/17,917
+metadata scan lines=1,500,000 businesses=39,503 found=5,334/17,917
+metadata scan lines=2,000,000 businesses=45,055 found=5,504/17,917
+metadata scan lines=2,500,000 businesses=58,809 found=7,238/17,917
+metadata scan lines=3,000,000 businesses=71,554 found=8,878/17,917
+metadata scan lines=3,500,000 businesses=79,231 found=10,309/17,917
+metadata scan lines=4,000,000 businesses=89,731 found=10,883/17,917
+metadata scan lines=4,500,000 businesses=102,425 found=12,564/17,917
+metadata scan lines=5,000,000 businesses=115,527 found=14,260/17,917
+metadata scan lines=5,500,000 businesses=120,258 found=14,421/17,917
+metadata scan lines=6,000,000 businesses=134,026 found=16,185/17,917
+metadata scan lines=6,500,000 businesses=146,794 found=17,770/17,917
+metadata filled for 17,917/17,917 needed current item IDs
+analyzing candidate_size=50
+analyzing candidate_size=100
+Done. Report: results/revision_r1/yelp_fair/yelp_1000_fair_confirmatory_report.md

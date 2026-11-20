@@ -1,0 +1,9 @@
+{
+  "n_users": 500,
+  "n_candidates_per_user": 50,
+  "lightgcn_raw_ndcg@20": 0.026265700325783143,
+  "lightgcn_raw_recall@20": 0.064,
+  "alpaca_lora_ndcg@20": 0.023146708713835888,
+  "alpaca_lora_recall@20": 0.066,
+  "delta_ndcg@20": -0.003118991611947255
+}

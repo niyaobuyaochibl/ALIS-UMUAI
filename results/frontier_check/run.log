@@ -1,0 +1,24 @@
+  50/500 fetched
+  100/500 fetched
+  150/500 fetched
+  200/500 fetched
+  250/500 fetched
+  300/500 fetched
+  350/500 fetched
+  400/500 fetched
+  450/500 fetched
+  500/500 fetched
+
+MODEL=deepseek-v4-flash users=500 NDCG@20=0.0291 prompt_tok=1638 compl_tok=2265 lat=19.27s total_tokens=1951330
+  50/500 fetched
+  100/500 fetched
+  150/500 fetched
+  200/500 fetched
+  250/500 fetched
+  300/500 fetched
+  350/500 fetched
+  400/500 fetched
+  450/500 fetched
+  500/500 fetched
+
+MODEL=deepseek-v4-pro users=500 NDCG@20=0.0243 prompt_tok=1638 compl_tok=2998 lat=26.72s total_tokens=2317939

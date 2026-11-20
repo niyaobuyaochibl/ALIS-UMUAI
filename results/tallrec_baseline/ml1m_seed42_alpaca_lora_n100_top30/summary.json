@@ -1,0 +1,7 @@
+{
+  "n_users": 100,
+  "n_candidates_per_user": 30,
+  "ndcg@20": 0.03498808096383724,
+  "recall@20": 0.1,
+  "hit@20": 0.1
+}

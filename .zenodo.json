@@ -1,0 +1,20 @@
+{
+  "title": "ALIS: code and artifacts for \"ALIS: Adaptive Selection of LLM Knowledge Interfaces for User Modeling in Recommender Systems\"",
+  "upload_type": "software",
+  "description": "<p>Code, generated LLM user profiles with claim-level support scores, LLM-judge audit labels, logs, cost traces and result tables for the article <em>ALIS: Adaptive Selection of LLM Knowledge Interfaces for User Modeling in Recommender Systems</em> (User Modeling and User-Adapted Interaction, 2026). Experiments use MovieLens-1M, the Amazon review data (Books) and the Yelp Open Dataset; raw user histories are not redistributed. Code is MIT-licensed; generated artifacts and results are CC BY 4.0.</p>",
+  "creators": [
+    {"name": "Zhang, Yunan", "affiliation": "Hebei University of Architecture"},
+    {"name": "Fan, Jingjing", "affiliation": "Hebei University of Architecture"},
+    {"name": "Liu, Yanxiao", "affiliation": "Hebei University of Architecture"}
+  ],
+  "license": "MIT",
+  "keywords": [
+    "user modeling",
+    "personalization",
+    "recommender systems",
+    "large language models",
+    "adaptive interface selection",
+    "responsible personalization"
+  ],
+  "version": "1.0.0"
+}

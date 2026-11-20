@@ -1,0 +1,19 @@
+{
+  "status": "completed",
+  "dataset": "amazon_books_subset",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "candidate_run_dir": "/root/temporal_popularity_pilot/results/egpr_profile_repair/amazon_books_seed42_lightgcn_1000",
+  "users": 30,
+  "candidates": 100,
+  "topk": 20,
+  "history_limit": 20,
+  "methods": {
+    "llmrank": {
+      "label": "LLMRank",
+      "estimated_cost_usd": 0.008344,
+      "parse_failures": 0
+    }
+  },
+  "updated_at_utc": "2026-06-09T16:26:21.120490+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "dataset": "ml1m",
+  "candidate_run_dir": "/root/temporal_popularity_pilot/results/egpr_profile_repair/ml1m_seed42_deepseek_2000_expressive5",
+  "users": 1000,
+  "candidates": 50,
+  "topk": 20,
+  "history_limit": 20,
+  "content_lambda": 0.5,
+  "methods": [
+    "content"
+  ],
+  "updated_at_utc": "2026-06-09T17:56:13.064245+00:00"
+}

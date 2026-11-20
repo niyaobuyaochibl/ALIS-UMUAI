@@ -1,0 +1,3 @@
+Method,HarmRate,PositiveGainRate,MeanDeltaNDCG@20,PositiveGainSum,NegativeGainSum,GainHarmRatio
+LightGCN,0.0,0.0,0.0,0.0,0.0,
+LLMRank (moonshot:moonshot-v1-128k),0.031,0.049,0.0033989109354508446,11.6073890491382,-8.208478113687354,1.414073216542209

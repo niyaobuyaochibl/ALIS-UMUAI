@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "dataset": "yelp",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "profile_run_dir": "/root/temporal_popularity_pilot/results/egpr_profile_repair/yelp_seed42_deepseek_1000_expressive5",
+  "users": 1000,
+  "direct_candidates": 50,
+  "topk": 20,
+  "history_limit": 20,
+  "estimated_cost_usd": 0.34452950000000004,
+  "parse_failures": 0,
+  "updated_at_utc": "2026-05-20T12:27:20.100691+00:00"
+}

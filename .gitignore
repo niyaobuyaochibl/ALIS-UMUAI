@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+data/
+figures/
+*.pt
+*.pth
+*_api_cache/
+profile_api_cache/

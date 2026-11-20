@@ -1,0 +1,7 @@
+[books] users=1000 (dropped 0) interfaces=['Base', 'Content', 'BM25', 'Dense', 'Direct', 'Raw', 'Remove', 'EGPR'] features=['base_content_overlap', 'base_entropy', 'base_margin', 'base_std', 'base_top1', 'log_hist']
+[books] done
+[ml1m] users=2000 (dropped 0) interfaces=['Base', 'Content', 'BM25', 'Dense', 'Direct', 'Raw', 'Remove', 'EGPR'] features=['base_content_overlap', 'base_entropy', 'base_margin', 'base_std', 'base_top1', 'log_hist']
+[ml1m] done
+[yelp] users=1000 (dropped 0) interfaces=['Base', 'Content', 'Direct', 'Raw', 'Remove', 'EGPR'] features=['base_content_overlap', 'base_entropy', 'base_margin', 'base_std', 'base_top1', 'log_hist']
+[yelp] done
+wrote 9 tables and report.md to results\revision_r1\analysis

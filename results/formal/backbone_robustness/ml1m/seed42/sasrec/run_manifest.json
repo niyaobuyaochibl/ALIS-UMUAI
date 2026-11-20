@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "dataset": "ml1m",
+  "seed": 42,
+  "backbone": "SASRec",
+  "config": "/root/temporal_popularity_pilot/results/formal/ml1m/seed42/config.json",
+  "updated_at_utc": "2026-05-16T03:05:33.383337+00:00",
+  "selected_static_lambda": 0.03,
+  "selected_temporal_lambda": 0.03,
+  "report": "/root/temporal_popularity_pilot/results/formal/backbone_robustness/ml1m/seed42/sasrec/sasrec_report.md",
+  "base_only": false
+}

@@ -1,0 +1,18 @@
+# stdout of: python scripts/predictive_alis.py   (Table 14; requires data/ml1m and data/yelp_day1)
+% Yelp content lambda_c=0.8 content_mean_NDCG=0.0107
+% ML-1M: interfaces=['Base', 'Direct', 'Raw', 'Remove', 'EGPR', 'Content', 'Dense'] n_val=1000 n_test=1000 decisive_test=126 static=Raw
+%   Base                       NDCG=0.0259 Regret=0.0339 LLMrate=0.00 SelAcc=0.896
+%   Static-best                NDCG=0.0320 Regret=0.0279 LLMrate=0.20 SelAcc=0.034
+%   Predictive ALIS            NDCG=0.0283 Regret=0.0315 LLMrate=0.42 SelAcc=0.217
+%   Cost-aware Predictive      NDCG=0.0319 Regret=0.0280 LLMrate=0.10 SelAcc=0.035
+%   Oracle                     NDCG=0.0598 Regret=0.0000 LLMrate=0.04 SelAcc=1.000
+%   H_opt(optimistic heterogeneity gap)=0.0250
+%   budget frontier (NDCG): B=0.00:smart=0.0320/rand=0.0320 B=0.25:smart=0.0322/rand=0.0318 B=0.50:smart=0.0319/rand=0.0318 B=0.75:smart=0.0313/rand=0.0313 B=1.00:smart=0.0313/rand=0.0313
+% Yelp: interfaces=['Base', 'Content', 'Raw', 'Remove', 'EGPR'] n_val=500 n_test=500 decisive_test=22 static=Raw
+%   Base                       NDCG=0.0145 Regret=0.0112 LLMrate=0.00 SelAcc=0.964
+%   Static-best                NDCG=0.0153 Regret=0.0104 LLMrate=0.60 SelAcc=0.391
+%   Predictive ALIS            NDCG=0.0163 Regret=0.0094 LLMrate=0.46 SelAcc=0.336
+%   Cost-aware Predictive      NDCG=0.0143 Regret=0.0114 LLMrate=0.05 SelAcc=0.919
+%   Oracle                     NDCG=0.0257 Regret=0.0000 LLMrate=0.02 SelAcc=1.000
+%   H_opt(optimistic heterogeneity gap)=0.0091
+%   budget frontier (NDCG): B=0.00:smart=0.0145/rand=0.0145 B=0.25:smart=0.0149/rand=0.0144 B=0.50:smart=0.0154/rand=0.0162 B=0.75:smart=0.0153/rand=0.0156 B=1.00:smart=0.0165/rand=0.0165

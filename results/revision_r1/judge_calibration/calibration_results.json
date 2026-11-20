@@ -1,0 +1,88 @@
+{
+  "n_claims": 1100,
+  "n_sampled": 1100,
+  "fleiss_kappa_five": 0.6508323213905116,
+  "fleiss_kappa_binary": 0.7963088698228502,
+  "summary": [
+    {
+      "judge": "Claude Haiku 5.5",
+      "bacc": 0.7790909090909091,
+      "bacc_lo": 0.7563636363636363,
+      "bacc_hi": 0.8018181818181818,
+      "kappa": 0.5581818181818181,
+      "kappa_lo": 0.5127272727272727,
+      "kappa_hi": 0.6036363636363635,
+      "bacc_lenient": 0.7781818181818181,
+      "recall_supported": 0.7327272727272728,
+      "recall_unsupported": 0.8254545454545454,
+      "bacc_dataset_min": 0.5399999999999999,
+      "bacc_dataset_max": 0.89,
+      "bacc_dataset_mean": 0.7790909090909092
+    },
+    {
+      "judge": "GPT-6 Luna",
+      "bacc": 0.7563636363636363,
+      "bacc_lo": 0.7336363636363636,
+      "bacc_hi": 0.78,
+      "kappa": 0.5127272727272727,
+      "kappa_lo": 0.4672727272727273,
+      "kappa_hi": 0.56,
+      "bacc_lenient": 0.7645454545454545,
+      "recall_supported": 0.6618181818181819,
+      "recall_unsupported": 0.850909090909091,
+      "bacc_dataset_min": 0.59,
+      "bacc_dataset_max": 0.8899999999999999,
+      "bacc_dataset_mean": 0.7563636363636363
+    },
+    {
+      "judge": "Gemini 3.8 Flash",
+      "bacc": 0.780909090909091,
+      "bacc_lo": 0.759090909090909,
+      "bacc_hi": 0.8018181818181818,
+      "kappa": 0.5618181818181818,
+      "kappa_lo": 0.5181818181818181,
+      "kappa_hi": 0.6036363636363635,
+      "bacc_lenient": 0.7972727272727274,
+      "recall_supported": 0.6890909090909091,
+      "recall_unsupported": 0.8727272727272728,
+      "bacc_dataset_min": 0.5900000000000001,
+      "bacc_dataset_max": 0.89,
+      "bacc_dataset_mean": 0.7809090909090909
+    },
+    {
+      "judge": "Majority of three",
+      "bacc": 0.78,
+      "bacc_lo": 0.7572727272727273,
+      "bacc_hi": 0.8018181818181818,
+      "kappa": 0.56,
+      "kappa_lo": 0.5145454545454546,
+      "kappa_hi": 0.6036363636363635,
+      "bacc_lenient": 0.7872727272727273,
+      "recall_supported": 0.7072727272727273,
+      "recall_unsupported": 0.8527272727272728,
+      "bacc_dataset_min": 0.5700000000000001,
+      "bacc_dataset_max": 0.9,
+      "bacc_dataset_mean": 0.78
+    }
+  ],
+  "rejected_supported_label_share": {
+    "Claude Haiku 5.5": {
+      "OVERLY_SPECIFIC": 0.435,
+      "NOT_SUPPORTED": 0.238,
+      "OVERGENERALIZED": 0.204,
+      "CONTRADICTED": 0.122
+    },
+    "GPT-6 Luna": {
+      "OVERLY_SPECIFIC": 0.462,
+      "OVERGENERALIZED": 0.366,
+      "CONTRADICTED": 0.097,
+      "NOT_SUPPORTED": 0.075
+    },
+    "Gemini 3.8 Flash": {
+      "OVERLY_SPECIFIC": 0.316,
+      "NOT_SUPPORTED": 0.269,
+      "CONTRADICTED": 0.222,
+      "OVERGENERALIZED": 0.193
+    }
+  }
+}

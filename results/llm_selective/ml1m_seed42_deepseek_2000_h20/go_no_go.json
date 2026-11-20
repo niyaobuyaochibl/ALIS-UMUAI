@@ -1,0 +1,17 @@
+{
+  "primary_baseline": "lightgcn",
+  "mode": "api",
+  "always_gain_positive": true,
+  "always_gain": 0.006340163432334844,
+  "learned50_capture_ge_70pct": true,
+  "learned50_benefit_capture": 0.7050659703783958,
+  "learned50_beats_random50": true,
+  "learned50_random_gap": 0.0014725275477955185,
+  "subgroup_gain_exceeds_overall": true,
+  "max_subgroup_always_gain": 0.013282883112332885,
+  "cost_saving_ge_40pct": true,
+  "learned50_cost_saving": 0.4994595272295441,
+  "diagnostic_changes_gain": false,
+  "min_diagnostic_gain": 0.006340163432334844,
+  "decision": "no_go_or_revise"
+}

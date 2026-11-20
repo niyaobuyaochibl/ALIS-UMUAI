@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software or these artifacts, please cite the article."
+title: "ALIS: code and artifacts"
+version: 1.0.0
+date-released: 2026-11-20
+license: MIT
+repository-code: "https://github.com/niyaobuyaochibl/ALIS-UMUAI"
+authors:
+  - family-names: Zhang
+    given-names: Yunan
+    affiliation: Hebei University of Architecture
+  - family-names: Fan
+    given-names: Jingjing
+    affiliation: Hebei University of Architecture
+  - family-names: Liu
+    given-names: Yanxiao
+    affiliation: Hebei University of Architecture
+preferred-citation:
+  type: article
+  title: "ALIS: Adaptive Selection of LLM Knowledge Interfaces for User Modeling in Recommender Systems"
+  journal: "User Modeling and User-Adapted Interaction"
+  year: 2026
+  authors:
+    - family-names: Zhang
+      given-names: Yunan
+    - family-names: Fan
+      given-names: Jingjing
+    - family-names: Liu
+      given-names: Yanxiao

@@ -1,0 +1,104 @@
+loaded 25000 test rows
+loading tokenizer from /root/autodl-tmp/models/skyline2006/llama-7b ...
+loading base model /root/autodl-tmp/models/skyline2006/llama-7b ...
+[transformers] Model config: pad_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got -1. This may result in unexpected behavior.
+[transformers] The following generation flags are not valid and may be ignored: ['pad_token_id']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   1%|          | 2/291 [00:00<00:25, 11.24it/s]Loading weights:   5%|▍         | 14/291 [00:00<00:05, 54.41it/s]Loading weights:   8%|▊         | 23/291 [00:00<00:04, 62.82it/s]Loading weights:  11%|█         | 32/291 [00:00<00:03, 67.57it/s]Loading weights:  14%|█▍        | 41/291 [00:00<00:03, 69.86it/s]Loading weights:  17%|█▋        | 50/291 [00:00<00:03, 71.63it/s]Loading weights:  20%|██        | 59/291 [00:00<00:03, 71.86it/s]Loading weights:  23%|██▎       | 68/291 [00:01<00:03, 72.92it/s]Loading weights:  26%|██▋       | 77/291 [00:01<00:02, 73.44it/s]Loading weights:  30%|██▉       | 86/291 [00:01<00:02, 74.30it/s]Loading weights:  33%|███▎      | 95/291 [00:01<00:02, 76.24it/s]Loading weights:  36%|███▌      | 104/291 [00:01<00:02, 74.69it/s]Loading weights:  39%|███▉      | 113/291 [00:01<00:02, 75.29it/s]Loading weights:  42%|████▏     | 122/291 [00:01<00:02, 75.32it/s]Loading weights:  45%|████▌     | 131/291 [00:01<00:02, 74.92it/s]Loading weights:  48%|████▊     | 140/291 [00:01<00:02, 74.97it/s]Loading weights:  51%|█████     | 149/291 [00:02<00:01, 75.64it/s]Loading weights:  54%|█████▍    | 157/291 [00:02<00:01, 75.09it/s]Loading weights:  57%|█████▋    | 165/291 [00:02<00:01, 68.82it/s]Loading weights:  60%|██████    | 176/291 [00:02<00:01, 75.32it/s]Loading weights:  64%|██████▎   | 185/291 [00:02<00:01, 75.09it/s]Loading weights:  67%|██████▋   | 194/291 [00:02<00:01, 74.21it/s]Loading weights:  70%|██████▉   | 203/291 [00:02<00:01, 75.51it/s]Loading weights:  73%|███████▎  | 212/291 [00:02<00:01, 75.56it/s]Loading weights:  76%|███████▌  | 221/291 [00:03<00:00, 74.70it/s]Loading weights:  79%|███████▉  | 230/291 [00:03<00:00, 74.71it/s]Loading weights:  82%|████████▏ | 239/291 [00:03<00:00, 74.78it/s]Loading weights:  85%|████████▌ | 248/291 [00:03<00:00, 74.78it/s]Loading weights:  88%|████████▊ | 257/291 [00:03<00:00, 74.41it/s]Loading weights:  91%|█████████ | 265/291 [00:03<00:00, 66.71it/s]Loading weights:  93%|█████████▎| 272/291 [00:03<00:00, 58.43it/s]Loading weights:  99%|█████████▉| 289/291 [00:03<00:00, 83.24it/s]Loading weights: 100%|██████████| 291/291 [00:03<00:00, 73.10it/s]
+  base loaded in 5.6s
+loading LoRA from /root/autodl-tmp/models/alpaca-lora-7B ...
+/root/miniconda3/lib/python3.12/site-packages/peft/config.py:220: UserWarning: Unexpected keyword arguments ['enable_lora', 'merge_weights'] for class LoraConfig, these are ignored. This probably means that you're loading a configuration file that was saved using a higher version of the library and additional parameters have been introduced since. It is highly recommended to upgrade the PEFT version before continuing (e.g. by running `pip install -U peft`).
+  warnings.warn(
+  LoRA loaded in 0.4s
+[transformers] The following generation flags are not valid and may be ignored: ['temperature', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[transformers] Passing `generation_config` together with generation-related arguments=({'max_new_tokens', 'output_scores', 'return_dict_in_generate'}) is deprecated and will be removed in future versions. Please pass either a `generation_config` object OR all generation parameters explicitly, but not both.
+  [32/25000]  rate=14.4/s  ETA=29.0min
+  [352/25000]  rate=16.6/s  ETA=24.8min
+  [672/25000]  rate=17.1/s  ETA=23.8min
+  [992/25000]  rate=17.0/s  ETA=23.5min
+  [1312/25000]  rate=17.1/s  ETA=23.1min
+  [1632/25000]  rate=17.1/s  ETA=22.8min
+  [1952/25000]  rate=17.1/s  ETA=22.4min
+  [2272/25000]  rate=17.2/s  ETA=22.0min
+  [2592/25000]  rate=17.3/s  ETA=21.6min
+  [2912/25000]  rate=17.3/s  ETA=21.3min
+  [3232/25000]  rate=17.3/s  ETA=21.0min
+  [3552/25000]  rate=17.3/s  ETA=20.6min
+  [3872/25000]  rate=17.3/s  ETA=20.3min
+  [4192/25000]  rate=17.3/s  ETA=20.0min
+  [4512/25000]  rate=17.3/s  ETA=19.7min
+  [4832/25000]  rate=17.3/s  ETA=19.4min
+  [5152/25000]  rate=17.3/s  ETA=19.1min
+  [5472/25000]  rate=17.3/s  ETA=18.8min
+  [5792/25000]  rate=17.3/s  ETA=18.5min
+  [6112/25000]  rate=17.3/s  ETA=18.2min
+  [6432/25000]  rate=17.3/s  ETA=17.9min
+  [6752/25000]  rate=17.3/s  ETA=17.6min
+  [7072/25000]  rate=17.3/s  ETA=17.3min
+  [7392/25000]  rate=17.3/s  ETA=16.9min
+  [7712/25000]  rate=17.3/s  ETA=16.6min
+  [8032/25000]  rate=17.3/s  ETA=16.3min
+  [8352/25000]  rate=17.3/s  ETA=16.0min
+  [8672/25000]  rate=17.3/s  ETA=15.7min
+  [8992/25000]  rate=17.3/s  ETA=15.4min
+  [9312/25000]  rate=17.3/s  ETA=15.1min
+  [9632/25000]  rate=17.3/s  ETA=14.8min
+  [9952/25000]  rate=17.3/s  ETA=14.5min
+  [10272/25000]  rate=17.3/s  ETA=14.2min
+  [10592/25000]  rate=17.3/s  ETA=13.8min
+  [10912/25000]  rate=17.4/s  ETA=13.5min
+  [11232/25000]  rate=17.4/s  ETA=13.2min
+  [11552/25000]  rate=17.4/s  ETA=12.9min
+  [11872/25000]  rate=17.4/s  ETA=12.6min
+  [12192/25000]  rate=17.4/s  ETA=12.3min
+  [12512/25000]  rate=17.4/s  ETA=12.0min
+  [12832/25000]  rate=17.4/s  ETA=11.7min
+  [13152/25000]  rate=17.4/s  ETA=11.4min
+  [13472/25000]  rate=17.4/s  ETA=11.1min
+  [13792/25000]  rate=17.4/s  ETA=10.7min
+  [14112/25000]  rate=17.4/s  ETA=10.4min
+  [14432/25000]  rate=17.4/s  ETA=10.1min
+  [14752/25000]  rate=17.4/s  ETA=9.8min
+  [15072/25000]  rate=17.4/s  ETA=9.5min
+  [15392/25000]  rate=17.4/s  ETA=9.2min
+  [15712/25000]  rate=17.4/s  ETA=8.9min
+  [16032/25000]  rate=17.4/s  ETA=8.6min
+  [16352/25000]  rate=17.4/s  ETA=8.3min
+  [16672/25000]  rate=17.4/s  ETA=8.0min
+  [16992/25000]  rate=17.4/s  ETA=7.7min
+  [17312/25000]  rate=17.4/s  ETA=7.4min
+  [17632/25000]  rate=17.4/s  ETA=7.1min
+  [17952/25000]  rate=17.4/s  ETA=6.8min
+  [18272/25000]  rate=17.4/s  ETA=6.4min
+  [18592/25000]  rate=17.4/s  ETA=6.1min
+  [18912/25000]  rate=17.4/s  ETA=5.8min
+  [19232/25000]  rate=17.4/s  ETA=5.5min
+  [19552/25000]  rate=17.4/s  ETA=5.2min
+  [19872/25000]  rate=17.4/s  ETA=4.9min
+  [20192/25000]  rate=17.4/s  ETA=4.6min
+  [20512/25000]  rate=17.4/s  ETA=4.3min
+  [20832/25000]  rate=17.4/s  ETA=4.0min
+  [21152/25000]  rate=17.4/s  ETA=3.7min
+  [21472/25000]  rate=17.4/s  ETA=3.4min
+  [21792/25000]  rate=17.4/s  ETA=3.1min
+  [22112/25000]  rate=17.4/s  ETA=2.8min
+  [22432/25000]  rate=17.4/s  ETA=2.5min
+  [22752/25000]  rate=17.4/s  ETA=2.2min
+  [23072/25000]  rate=17.4/s  ETA=1.8min
+  [23392/25000]  rate=17.4/s  ETA=1.5min
+  [23712/25000]  rate=17.4/s  ETA=1.2min
+  [24032/25000]  rate=17.4/s  ETA=0.9min
+  [24352/25000]  rate=17.4/s  ETA=0.6min
+  [24672/25000]  rate=17.4/s  ETA=0.3min
+  [24992/25000]  rate=17.4/s  ETA=0.0min
+inference done in 24.0 min
+
+=== SUMMARY ===
+{
+  "n_users": 500,
+  "n_candidates_per_user": 50,
+  "ndcg@20": 0.023146708713835888,
+  "recall@20": 0.066,
+  "hit@20": 0.066
+}
+
+wrote outputs to: /root/temporal_popularity_pilot/results/tallrec_baseline/ml1m_seed42_alpaca_lora_n500_top50

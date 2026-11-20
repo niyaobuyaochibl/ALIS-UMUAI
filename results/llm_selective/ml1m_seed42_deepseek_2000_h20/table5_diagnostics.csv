@@ -1,0 +1,2 @@
+Baseline,Diagnostic,NDCG@20,Recall@20,HitRate@20,NDCG Gain vs No LLM
+lightgcn,original,0.03119607385806312,0.0745,0.0745,0.006340163432334844

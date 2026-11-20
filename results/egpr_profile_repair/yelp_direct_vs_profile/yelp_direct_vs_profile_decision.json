@@ -1,0 +1,10 @@
+{
+  "profile_test_cost_usd": 0.04333378,
+  "profile_full_val_test_cost_usd": 0.08647296000000002,
+  "direct_test_cost_usd": 0.10359706000000002,
+  "profile_test_cost_vs_direct": 0.4182916001670317,
+  "profile_full_cost_vs_direct": 0.83470476864884,
+  "direct_parse_failures": 0,
+  "profile_users_total": 599,
+  "test_users": 300
+}

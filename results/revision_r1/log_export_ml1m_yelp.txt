@@ -1,0 +1,25 @@
+[ml1m] Base: ranked list from <repo>\results\llm_selective\ml1m_seed42_deepseek_2000_h20\candidates_lightgcn_test.npz (users matched 2000/2000), NDCG@20=0.0249
+[ml1m] Direct: ranked list from <repo>\results\llm_selective\ml1m_seed42_deepseek_2000_h20\reranked_lightgcn_original_top20.npy (users matched 2000/2000), NDCG@20=0.0312
+[ml1m] Raw: ranked list from <repo>\results\egpr_profile_repair\ml1m_2000_fair_direct_candidates\reranked_profile_rerank_raw_top20.npy (users matched 2000/2000), NDCG@20=0.0278
+[ml1m] Remove: ranked list from <repo>\results\egpr_profile_repair\ml1m_2000_fair_direct_candidates\reranked_profile_rerank_remove_top20.npy (users matched 2000/2000), NDCG@20=0.0278
+[ml1m] EGPR: ranked list from <repo>\results\egpr_profile_repair\ml1m_2000_fair_direct_candidates\reranked_profile_rerank_egpr_top20.npy (users matched 2000/2000), NDCG@20=0.0280
+[ml1m] Content: ranked list from <repo>\results\egpr_profile_repair\ml1m_2000_fair_direct_candidates\reranking_baselines\ranked_content_top20.npy (users matched 2000/2000), NDCG@20=0.0267
+[ml1m] Dense: ranked list from <repo>\results\egpr_profile_repair\ml1m_2000_fair_direct_candidates\reranking_baselines\ranked_dense_top20.npy (users matched 2000/2000), NDCG@20=0.0331
+[ml1m] BM25: ranked list from <repo>\results\revision_r1\ml1m_strong\per_user_ranked_bm25.npz (users matched 2000/2000), NDCG@20=0.0284
+[ml1m] check Base vs per_user_lightgcn.csv: 0 mismatching users of 2000
+[ml1m] check Direct vs per_user_direct.csv: 0 mismatching users of 2000
+[ml1m] check Raw vs per_user_profile_rerank_raw.csv: 0 mismatching users of 2000
+[ml1m] check Remove vs per_user_profile_rerank_remove.csv: 0 mismatching users of 2000
+[ml1m] check EGPR vs per_user_profile_rerank_egpr.csv: 0 mismatching users of 2000
+[ml1m] wrote <repo>\results\revision_r1\panels\panel_ml1m.csv (2000 users, 8 interfaces)
+[yelp] Base: ranked list from <repo>\results\egpr_profile_repair\yelp_seed42_deepseek_1000_expressive5\candidates_lightgcn_test.npz (users matched 1000/1000), NDCG@20=0.0155
+[yelp] Direct: ranked list from <repo>\results\revision_r1\yelp_fair\per_user_ranked_top100.npz (users matched 1000/1000), NDCG@20=0.0152
+[yelp] Raw: ranked list from <repo>\results\revision_r1\yelp_fair\per_user_ranked_top100.npz (users matched 1000/1000), NDCG@20=0.0166
+[yelp] Remove: ranked list from <repo>\results\revision_r1\yelp_fair\per_user_ranked_top100.npz (users matched 1000/1000), NDCG@20=0.0160
+[yelp] EGPR: ranked list from <repo>\results\revision_r1\yelp_fair\per_user_ranked_top100.npz (users matched 1000/1000), NDCG@20=0.0152
+[yelp] Content: ranked list from <repo>\results\egpr_profile_repair\yelp_direct_vs_profile\reranking_baselines\ranked_content_top20.npy (users matched 1000/1000), NDCG@20=0.0164
+[yelp] check Base vs per_user_lightgcn.csv: 0 mismatching users of 1000
+[yelp] check Raw vs per_user_lightgcn_raw_profile.csv: 0 mismatching users of 1000
+[yelp] check Remove vs per_user_lightgcn_remove_repair.csv: 0 mismatching users of 1000
+[yelp] check EGPR vs per_user_lightgcn_evidence_weighted_repair.csv: 0 mismatching users of 1000
+[yelp] wrote <repo>\results\revision_r1\panels\panel_yelp.csv (1000 users, 6 interfaces)

@@ -1,0 +1,4 @@
+uid,method,input_tokens,output_tokens,latency_seconds,parse_failure
+114,llmrank,1553.0,311.0,6.07775092124939,0
+309,llmrank,1603.0,128.0,3.0627431869506836,0
+402,llmrank,1527.0,298.0,6.748368978500366,0

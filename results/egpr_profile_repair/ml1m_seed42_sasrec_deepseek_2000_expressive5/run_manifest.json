@@ -1,0 +1,18 @@
+{
+  "status": "completed",
+  "profile_run_dir": "/root/temporal_popularity_pilot/results/egpr_profile_repair/ml1m_seed42_deepseek_2000_expressive5",
+  "sasrec_ckpt": "/root/temporal_popularity_pilot/results/formal/backbone_robustness/ml1m/seed42/sasrec/sasrec.pt",
+  "users_val": 2000,
+  "users_test": 2000,
+  "top_candidates": 100,
+  "topk": 20,
+  "lambda_grid": [
+    0.05,
+    0.1,
+    0.2,
+    0.3,
+    0.5,
+    1.0
+  ],
+  "updated_at_utc": "2026-05-21T03:06:19.450707+00:00"
+}

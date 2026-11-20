@@ -1,0 +1,5 @@
+Method,Top20OverlapVsBase,MeanAbsRankShiftVsBase
+LightGCN,1.0,0.0
+Content Rerank,0.93445,3.1104600000000002
+BM25 Rerank,0.6359750000000001,10.83038
+Dense Rerank,0.642875,11.10588

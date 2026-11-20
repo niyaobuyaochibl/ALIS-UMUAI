@@ -1,0 +1,2 @@
+Dataset,#Users,#Items,#Interactions,Metadata fields,Avg history length,Train,Validation,Test
+ml1m,6040,3260,998539,title|genres|year,163.32102649006623,986459,6040,6040

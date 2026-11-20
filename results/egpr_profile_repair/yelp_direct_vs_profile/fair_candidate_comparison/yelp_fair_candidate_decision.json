@@ -1,0 +1,8 @@
+{
+  "profile_test_cost_usd": 0.04333378,
+  "profile_full_val_test_cost_usd": 0.08647296000000002,
+  "direct_top50_cost_usd": 0.10359706000000002,
+  "direct_top100_cost_usd": 0.1827028,
+  "profile_top50_cost_vs_direct_top50": 0.4182916001670317,
+  "profile_top100_cost_vs_direct_top100": 0.2371818056428254
+}
